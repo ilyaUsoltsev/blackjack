@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BlackJack</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="Grid.css">
+</head>
+<body id='blackjack'>
+<header>
+      <div class="hero-text-box">
+          <h1>Play BlackJack &mdash; kill time</h1>
+      </div>
+</header>
+
+
+<section class="reg-game">
+   <div class="row">
+               <div class="col span-1-of-4 reg">
+                    <form action="" method="post" class="contact-form">
+               <div>
+                   <div class="col span-1-of-3">
+                       <label for="name">Name</label>
+                   </div>
+                   <div class="col span-2-of-3">
+                       <input type="text" name="name" placeholder="your name" required>
+                   </div>
+               </div>
+               <div>
+                   <div class="col span-1-of-3">
+                       <label for="email">Email</label>
+                   </div>
+                   <div class="col span-2-of-3">
+                       <input type="email" name="email" placeholder="your email" required>
+                   </div>
+               </div>
+               
+               <div >
+                   <div class="col span-1-of-3">
+                       <label for="Submit"></label>
+                   </div>
+                   <div class="col span-2-of-3 submit-button">
+                       <input type="submit" value="SUMBIT">
+                   </div>
+               </div>
+           </form>
+               </div>
+               
+               <div class="col span-2-of-4 game">
+                   <div>
+              <div class='dealer'>
+                  <img id='dc1' src="" alt=""> 
+                  <img id='dc2' src="img/hidden.png" alt="">         
+              </div>
+              <div class='player'>
+                  <img id='pc1' src="img/hidden.png" alt="">
+              </div>
+              <div class = 'btn'>
+                   <button id='stand'>Stand</button>
+                   <button id='hit'>Hit</button>
+              </div>
+              <div class="row">
+                <p>your score</p>
+                 <div class = 'col-md-8' id="score-player">
+                 </div>
+                 <p>dealer's score</p>
+                 <div class = 'col-md-8' id="score-dealer">
+                 </div>
+              </div>
+              <div>
+                  <button id="newgame">New Game</button>
+              </div>
+              <div id="results">
+
+              </div>
+        </div>
+               </div>
+               <div class="col span-1-of-4 others">
+                   <div class="other1">Other Player 1</div>
+                   <div class="other2">Other Player 2</div>
+                   
+               </div>
+   </div>
+    <script type="text/javascript" src= "script.js"></script>   
+</section>
+
+</body>
+</html>
